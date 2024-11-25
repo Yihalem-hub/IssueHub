@@ -1,0 +1,47 @@
+.department-issues {
+  margin-top: 20px;
+}
+
+.department {
+  margin-bottom: 30px;
+}
+
+.department h3 {
+  color: #0056b3;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.department table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.department th,
+.department td {
+  padding: 10px;
+  text-align: left;
+}
+
+.department th {
+  background-color: #f0f0f0;
+}
+
+.department td {
+  border-bottom: 1px solid #ccc;
+}
+
+.tabs button {
+  padding: 10px 20px;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+.tabs button:hover {
+  background-color: #003f7f;
+}

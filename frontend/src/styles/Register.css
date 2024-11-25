@@ -1,0 +1,92 @@
+/* Register Form Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f7fc;
+}
+
+/* Form Wrapper */
+.register-form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Title of the form */
+.register-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Form input fields */
+.register-form input,
+.register-form select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #fafafa;
+  transition: border 0.3s ease;
+}
+
+/* Focus effect on input fields */
+.register-form input:focus,
+.register-form select:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+/* Register button */
+.register-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect on register button */
+.register-form button:hover {
+  background-color: #45a049;
+}
+
+/* Message displayed after registration */
+.register-form p {
+  text-align: center;
+  color: #777;
+}
+
+/* Error message for failed registration */
+.register-form .error-message {
+  color: red;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Link to Login page */
+.register-form .login-link {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.register-form .login-link a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.register-form .login-link a:hover {
+  text-decoration: underline;
+}

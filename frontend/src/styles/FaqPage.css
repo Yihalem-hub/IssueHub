@@ -1,0 +1,76 @@
+/* FaqPage.css */
+.faq-page {
+  width: 100%;
+  padding: 20px;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.faq-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.faq-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.faq-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  padding: 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.faq-item:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.faq-question {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.faq-answer {
+  display: block;
+  font-size: 1rem;
+  background-color: #888;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.faq-item.active .faq-answer {
+  display: block;
+}
+
+.faq-item.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.faq-footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.faq-footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.faq-footer a:hover {
+  text-decoration: underline;
+}
